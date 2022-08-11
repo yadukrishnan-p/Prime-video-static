@@ -1,0 +1,353 @@
+.header{
+   background-color: #1b2530;
+   width: 100%;
+   height: 73px;
+   display: flex;
+   /* justify-content: end; */
+}
+body{
+    margin: 0; 
+    padding: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.logo img {
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 60px;
+    width: 137px;
+    cursor: pointer;
+}
+#categories ul li{
+    margin: 10px;
+    color: white;
+    list-style: none;
+    font-size: medium;
+    cursor: pointer;
+}
+#categories ul{
+    display: flex;
+    
+}
+#categories ul li img{
+    width: 13.58px;
+    height: 10.29px;
+}
+.header button{
+    /* position: absolute; */
+     margin-top: 20px; 
+      margin-left: 296px; 
+     background-color: #0f79af;
+     color: white;
+     border: none;
+     border-radius: 3px;
+     font-size: 17px;
+     font-weight: 500;
+     width: 129px;
+     height: 35px;
+     padding-left: 20px;
+     padding-top: 4px;
+     cursor: pointer;
+}
+.first-txt{
+    color: white;
+    display: flex;
+}
+.first-txt img{
+    width: 3000px;
+    height: 400px;
+    
+
+}
+.first-txt h1{
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 94px; 
+    color: rgb(233, 224, 224);  
+}
+.first-txt p{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 170px;
+    font-size: 24px;
+    font-weight: 389;
+}
+.first-txt h2{
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 320px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.first-txt button{
+    position: absolute;
+   margin-top: 270px;
+    margin-left: 60px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 280px;
+    height: 48px;
+    cursor: pointer;
+}
+.second {
+    color: white;
+    display: flex;
+}
+
+.second img{
+    width: 1300px;
+    height: 500px;
+    
+}
+.second h1{
+    position: absolute;
+    font-weight: 689;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 46px; 
+}
+.second p{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 165px;
+    font-size: 23px;
+    font-weight: 380;
+}
+.second button{
+    position: absolute;
+   margin-top: 270px;
+    margin-left: 60px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 280px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.second img{
+    filter: brightness(36%);
+}
+
+.third {
+    color: white;
+    display: flex;
+    /* padding-left: 670px; */
+
+}
+.third img {
+    padding-left:7px;
+    margin-top: 15px;
+    width: 170px;
+    height: 130px ;
+    cursor: pointer;
+}
+
+.third-a {
+    color: white;
+    display: flex;
+    justify-content: left;
+    justify-content: start;
+    /* padding-left: 670px; */
+}
+.third-a img {
+    padding-left:7px;
+    margin-top: 7px;
+    width: 170px;
+    height: 130px ;
+    cursor: pointer;
+}
+.third-b {
+    color: white;
+    display: flex;
+    justify-content: left;
+    justify-content: start;
+}
+.third-b img {
+    padding-left:7px;
+    margin-top: 7px;
+    width: 170px;
+    height: 130px ;
+    cursor: pointer;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.card-main-text h1 {
+    font-size: 44px;
+    font-weight: 80;
+    padding-top: 22px;
+}
+.card-main-text p{
+    font-size: 25px;
+}
+.forth {
+    color: white;
+    display: flex;
+}
+.forth img{
+    margin-top: 12px;
+    width: 1300px;
+    height: 500px;
+}
+.forth h1{
+    position: absolute;
+    color: white;
+    padding-left: 689px;
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.forth p{
+    position: absolute;
+    padding-left: 689px;
+    padding-top: 145px;
+    font-size: 20px;
+    font-weight: 380;
+    color: white;
+}
+.forth button{
+    position: absolute;
+   margin-top: 328px;
+    margin-left: 685px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 280px;
+    height: 59px;
+    cursor: pointer;
+}
+.fifth{
+    color: white;
+    display: flex;
+}
+.fifth img{
+    width: 3000px;
+    height: 500px;
+}
+.fifth h1{
+    position: absolute;
+    color: white;
+    padding-left: 60px;
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.fifth p{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 95px;
+    font-size: 20px;
+    font-weight: 380;
+    color: white;
+}
+.fifth button{
+    position: absolute;
+    margin-top: 259px;
+     margin-left: 60px;
+     background-color: #0f79af;
+     color: white;
+     border: none;
+     border-radius: 3px;
+     font-size: 17px;
+     font-weight: 500;
+     width: 280px;
+     height: 57px;
+     cursor: pointer;
+}
+.footer{
+    background-color: #1b2530;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.footer img{
+    padding-left: 570px;
+    padding-top: 28px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 117px;
+}
+.footer-para{
+    text-align: center;
+    color: gray;
+}
+.footer-para span{
+    color: #0f79af;
+    font-weight: 10px;
+    cursor: pointer;
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    padding-left: 89px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.image i{
+    color: #babdc0;
+    padding-left: 25px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.image1 i{
+    padding-left: 17px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+.h1 h1{
+    padding-left: 10px;
+    padding-top: 21px;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.en{
+    padding-left:10px;
+    padding-top: 34px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.profile i{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+}
+.down i{
+    padding-left:10px;
+    padding-top: 33px;
+    color: whitesmoke;
+    font-size:  16px; 
+}
